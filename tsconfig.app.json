@@ -1,0 +1,60 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    // "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Path mapping */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      // Core paths
+      "@/core/*": ["./src/core/*"],
+      "@/core/api/*": ["./src/core/api/*"],
+      "@/core/store/*": ["./src/core/store/*"],
+      "@/core/types/*": ["./src/core/types/*"],
+      "@/core/utils/*": ["./src/core/utils/*"],
+      "@/core/constants/*": ["./src/core/constants/*"],
+      // Features paths
+      "@/features/*": ["./src/features/*"],
+      "@/features/dashboard/*": ["./src/features/dashboard/*"],
+      "@/features/calendar/*": ["./src/features/calendar/*"],
+      "@/features/booking/*": ["./src/features/booking/*"],
+      "@/features/car-management/*": ["./src/features/car-management/*"],
+      "@/features/reports/*": ["./src/features/reports/*"],
+      // Shared paths
+      "@/shared/*": ["./src/shared/*"],
+      "@/shared/components/*": ["./src/shared/components/*"],
+      "@/shared/hooks/*": ["./src/shared/hooks/*"],
+      "@/shared/utils/*": ["./src/shared/utils/*"],
+      "@/shared/types/*": ["./src/shared/types/*"],
+      "@/shared/constants/*": ["./src/shared/constants/*"],
+      // App paths
+      "@/app/*": ["./src/app/*"],
+      "@/app/components/*": ["./src/app/components/*"],
+      "@/app/providers/*": ["./src/app/providers/*"],
+      "@/app/router/*": ["./src/app/router/*"],
+      "@/app/store/*": ["./src/app/store/*"]
+    },
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": false,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
+  },
+  "include": ["src"]
+}

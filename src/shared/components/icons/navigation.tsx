@@ -1,0 +1,33 @@
+import {
+  CarCrashOutlined,
+  DashboardOutlined,
+  ExpandLess,
+  ExpandMore,
+  StarBorder,
+  Menu,
+  ChevronLeft,
+  ChevronRight,
+  Inbox,
+  Settings,
+  Person,
+  AccountCircle,
+  PersonOutline,
+  Edit,
+} from '@mui/icons-material';
+
+export {
+  CarCrashOutlined as CarCrashOutlinedIcon,
+  DashboardOutlined as DashboardOutlinedIcon,
+  ExpandLess as ExpandLessIcon,
+  ExpandMore as ExpandMoreIcon,
+  StarBorder as StarBorderIcon,
+  Menu as MenuIcon,
+  ChevronLeft as ChevronLeftIcon,
+  ChevronRight as ChevronRightIcon,
+  Inbox as InboxIcon,
+  Settings as SettingsIcon,
+  Person as ProfileIcon,
+  AccountCircle as AccountIcon,
+  PersonOutline as PersonalInfoIcon,
+  Edit as PreferencesIcon,
+};
