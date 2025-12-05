@@ -1,4 +1,10 @@
-import { IconButton, MenuIcon, Toolbar, Typography, Box } from '@/shared/components';
+import {
+  IconButton,
+  MenuIcon,
+  Toolbar,
+  Typography,
+  Box,
+} from '@/shared/components';
 import { useAuth } from '@/app/providers';
 import { useNavigate } from 'react-router';
 import * as React from 'react';
@@ -42,7 +48,7 @@ export const AppBarContent: React.FC<AppBarContentProps> = ({
         <MenuIcon />
       </IconButton>
       <Typography variant="h4" noWrap component="div" sx={{ flexGrow: 1 }}>
-        Car Rental Scheduler
+        Web Test Payment Gateway
       </Typography>
       {user && (
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>

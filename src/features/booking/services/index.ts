@@ -1,2 +1,0 @@
-// Booking services
-export {};

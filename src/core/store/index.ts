@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { carReducer } from '@/features/car-management/store';
+import { carReducer } from '@/features/order-checkout/store';
 
 /**
  * Root Redux store configuration

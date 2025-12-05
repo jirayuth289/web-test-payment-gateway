@@ -1,5 +1,5 @@
-import { DashboardOverview } from '@/features';
-import CarManagement from '@/features/car-management/components/index.tsx';
+import { DashboardOverview, PaymentComponent } from '@/features';
+import ChargeManagement from '@/features/order-checkout/components';
 import {
   AccountSettings,
   PersonalInfo,
@@ -19,6 +19,7 @@ import {
   NavigationComposite,
   type NavigationConfig,
 } from './types';
+import { Payment } from '@mui/icons-material';
 
 /**
  * Application navigation configuration (Composite Pattern)
@@ -69,14 +70,14 @@ export const navigationConfig: NavigationConfig = [
     }
   ),
   new NavigationLeaf(
-    'car-management',
-    'Car Management',
-    '/car-management',
-    CarManagement,
+    'order-checkout',
+    'Order Checkout ',
+    '/order-checkout',
+    ChargeManagement,
     CarCrashOutlinedIcon,
     true,
     {
-      description: 'Manage car inventory and details',
+      description: 'Manage charge inventory and details',
       requiresAuth: true,
     }
   ),
@@ -123,6 +124,18 @@ export const navigationConfig: NavigationConfig = [
     ],
     true, // showInSidebar
     { description: 'Application settings', requiresAuth: true }
+  ),
+  new NavigationLeaf(
+    'payment',
+    'Payment',
+    '/payment',
+    PaymentComponent,
+    AccountIcon,
+    true,
+    {
+      description: 'Payment',
+      requiresAuth: true,
+    }
   ),
 ];
 

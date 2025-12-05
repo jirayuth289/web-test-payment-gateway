@@ -1,6 +1,6 @@
 import { createTheme, type ThemeOptions } from '@mui/material/styles';
 
-// Car Rental Scheduler Theme Configuration
+// Scheduler Theme Configuration
 const themeOptions: ThemeOptions = {
   palette: {
     mode: 'light',

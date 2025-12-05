@@ -4,7 +4,7 @@
  * In production, replace this with actual API calls
  */
 
-import type { Car, CarFormData, CarFilters } from '@/features/car-management/types';
+import type { Car, CarFormData, CarFilters } from '@/features/order-checkout/types';
 
 // Mock data storage (in-memory)
 let mockCars: Car[] = [

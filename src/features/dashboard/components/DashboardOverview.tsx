@@ -12,9 +12,7 @@ import { carStatusColors } from '@/core/theme';
 const DashboardOverview: React.FC = () => {
   const features = [
     { name: 'Dashboard', status: 'available' as const },
-    { name: 'Calendar', status: 'available' as const },
-    { name: 'Booking Management', status: 'booked' as const },
-    { name: 'Car Management', status: 'maintenance' as const },
+    { name: 'Charge Credit Card With Omise', status: 'available' as const },
     { name: 'Reports', status: 'available' as const },
   ];
 
@@ -22,7 +20,7 @@ const DashboardOverview: React.FC = () => {
     <Container maxWidth={false}>
       <Box sx={{ mb: 4 }}>
         <Typography variant="h2" component="h1" gutterBottom>
-          Car Rental Scheduler
+          Web Test Payment Gateway
         </Typography>
         <Typography variant="h5" color="text.secondary" gutterBottom>
           Dashboard Overview
@@ -70,7 +68,7 @@ const DashboardOverview: React.FC = () => {
           <Card>
             <CardContent>
               <Typography variant="h5" gutterBottom>
-                Car Status Colors
+                Charge Status Colors
               </Typography>
               <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
                 <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>

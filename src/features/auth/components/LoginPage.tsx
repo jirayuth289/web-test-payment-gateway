@@ -54,7 +54,7 @@ export const LoginPage: React.FC = () => {
         <Card sx={{ width: '100%', maxWidth: 400 }}>
           <CardContent sx={{ p: 4 }}>
             <Typography variant="h4" component="h1" gutterBottom align="center">
-              Car Rental Scheduler
+              Web Test Payment Gateway
             </Typography>
             <Typography
               variant="h6"
